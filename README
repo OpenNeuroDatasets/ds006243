@@ -1,0 +1,27 @@
+Dataset Description 
+
+This dataset contains only MNI‐normalized BOLDs from fMRIPrep.
+
+- 54 fMRI subjects undergoing pain empathy task. 
+- Preregistration: https://osf.io/agbu5 
+
+Experiment Times and Details
+
+- 30 trials
+    - 30 cues (15 neutral, 15 pain)
+    - 30 anticipation (15 neutral, 15 pain)
+    - 30 stimulation (10 pain, 20 no pain)
+    - 30 rest (10 pain, 20 no pain)
+
+- 1 trial = 24 seconds
+    - 3 s auditory signal for anticipation or safety
+    - 3-12 s anticipation
+    - 6 s pain stimulation
+    - 3-12 rest 
+
+- full trial and experiment
+    - 15 (anticipation + rest) + 9 (cue + stimulation) —> 24 (full trial length) 
+    - EXPERIMENT IS 720 s in TOTAL
+
+- CFMI acquisition time is 750 s (see json file in func)
+    - subtract 10 s until scanner is ready - that is when task actually begins, this we subtract in the beginning from events and confounds (4 volumes, already subtracted before preprocessing)
