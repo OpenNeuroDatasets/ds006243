@@ -22,6 +22,7 @@
     "License": "CC0",
     "DatasetDOI": "doi:10.18112/openneuro.ds006243.v1.0.0",
     "ReferencesAndLinks": [
-        "https://osf.io/2sx3v/"
+        "https://osf.io/2sx3v/",
+        "https://github.com/princessamygdala/loneliness-empathy-meditation-study"
     ]
 }
