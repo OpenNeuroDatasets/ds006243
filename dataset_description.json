@@ -21,5 +21,7 @@
     ],
     "License": "CC0",
     "DatasetDOI": "doi:10.18112/openneuro.ds006243.v1.0.0",
-    "ReferencesAndLinks": []
+    "ReferencesAndLinks": [
+        "https://osf.io/2sx3v/"
+    ]
 }
