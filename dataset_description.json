@@ -1,20 +1,23 @@
 {
-  "Name": "Loneliness modulates self-reported empathy … (pre-processed BOLDs)",
-  "BIDSVersion": "1.8.0",             
-  "DatasetType": "derivative",
-
-  "Authors": [
-    "Marla Dressel", "Naomi Nero", "Paige Freeburg",
-    "Melinda Somers", "Ashley S. VanMeter",
-    "Shawn A. Rhoads", "Abigail A. Marsh"
-  ],
-  "Acknowledgements": "We thank the Mind and Life Institute for funding this research. We also thank the participants for their time and effort.",
-  "GeneratedBy": [
-    {
-      "Name":    "fMRIPrep",
-      "Version": "23.0.0",
-      "CodeURL": "https://github.com/poldracklab/fmriprep"
-    }
-  ]
+    "Name": "Empathic Pain Task",
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "derivative",
+    "Authors": [
+        "Marla Dressel",
+        "Naomi Nero",
+        "Paige Freeburg",
+        "Melinda Somers",
+        "Ashley S. VanMeter",
+        "Shawn A. Rhoads",
+        "Abigail A. Marsh"
+    ],
+    "Acknowledgements": "We thank the Mind and Life Institute for funding this research. We also thank the participants for their time and effort.",
+    "GeneratedBy": [
+        {
+            "Name": "fMRIPrep",
+            "Version": "23.0.0",
+            "CodeURL": "https://github.com/poldracklab/fmriprep"
+        }
+    ],
+    "License": "CC0"
 }
-
