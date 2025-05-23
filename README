@@ -31,6 +31,8 @@ Task Structure: Two counter-balanced runs—Experience (Self) and Observe (Other
 - Acquisition time is 750 s 
     - subtracted 10 s (4 volumes) from imaging data, events, and confounds
 
+NOTE: The confound (and outlier) files are trimmed (3 volumes in the beginning and 3 at the end, as can be seen in the getConfounds.py file, line 53, on GitHub in the folder fMRI_Data_Python_Bash_Scripts). So they contain 290 volumes (725 s) instead of 296 (740 s). However, the fMRI data on OpenNeuro is not trimmed. They are being trimmed during the first-level analysis, for which you can also find the script on GitHub. It's the 1stlevel_smoothed.sh file, lines 51, 64, 68 in the folder fMRI_Data_Python_Bash_Scripts. 
+
 Preprint: Loneliness predicts reduced self-reported empathy but not empathic multi-voxel neural response patterns after meditation training
 OSF: https://osf.io/2sx3v/
 Scripts to run the analysis: https://github.com/princessamygdala/loneliness-empathy-meditation-study
